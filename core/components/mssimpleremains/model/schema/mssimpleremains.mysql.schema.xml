@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model package="mssimpleremains" baseClass="xPDOObject" platform="mysql" defaultEngine="MyISAM" version="1.1">
+
+    <object class="msSimpleRemainsDefault" table="mssimpleremains_default" extends="xPDOSimpleObject">
+        <field key="file" dbtype="text" phptype="string" null="false" default=""/>
+        <field key="tv_name" dbtype="text" phptype="string" null="false" default=""/>
+        <field key="ident" dbtype="text" phptype="string" null="false" default="article"/>
+        <field key="ident_tv" dbtype="text" phptype="string" null="false" default=""/>
+        <field key="skip_first" dbtype="boolean" phptype="boolean" null="false" default="0"/>
+    </object>
+
+<!--    <object class="msSimpleRemainsItems" table="mssimpleremains_items" extends="xPDOSimpleObject">-->
+<!--        <field key="article" dbtype="int" phptype="integer" null="false"/>-->
+<!--        <field key="remains" dbtype="int" phptype="integer" null="false"/>-->
+<!--        <field key="product_id" dbtype="int" phptype="integer" null="true"/>-->
+<!--    </object>-->
+
+</model>

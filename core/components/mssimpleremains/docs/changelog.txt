@@ -1,0 +1,16 @@
+1.0.3
+==============
+- Added new identificators: id, tv
+- Change DB to TV
+
+1.0.2
+==============
+- Added protection by modstore.pro
+
+1.0.1
+==============
+- Some changes
+
+1.0.0
+==============
+- Initial release.
